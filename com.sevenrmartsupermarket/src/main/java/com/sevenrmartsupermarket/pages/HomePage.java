@@ -11,6 +11,9 @@ public class HomePage {
 	@FindBy(xpath = "//a[@class='d-block']")
 	private WebElement ProfileName;
 
+	@FindBy(xpath = "//p[text()='Admin Users']/../div/following-sibling::a")
+	private WebElement clickAdminMoreInfo;
+
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -18,6 +21,11 @@ public class HomePage {
 
 	public String getProfileName() {
 		return ProfileName.getText();
+	}
+
+	public AdminUserPage clickAdminMoreInfo() {
+		clickAdminMoreInfo.click();
+		return new AdminUserPage(driver);
 	}
 
 }

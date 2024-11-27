@@ -54,13 +54,14 @@ public class LoginPage {
 		enterUserName(UserName);
 		enterPassword(Password);
 		clickOnSignInBtn();
+		//return new HomePage(driver);//returning object of another class
 	}
 
-	public void login() {
+	/*public void login() {
 		String userName = properties.getProperty("username");
 		String password = properties.getProperty("password");
 		enterUserName(userName);
 		enterPassword(password);
 		clickOnSignInBtn();
-	}
+	}*/
 }
