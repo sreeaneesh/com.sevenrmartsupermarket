@@ -20,7 +20,7 @@ public class LoginTest extends Base {
 		 * excelreader.setExcelFile("LoginDetails", "LoginCredentials"); String
 		 * readData1 = excelreader.getCellData(0, 1); String readData2 =
 		 * excelreader.getCellData(1, 1); System.out.println(readData1);
-		 * System.out.println(readData2);
+		 * System.out.println(readData2);//Excel
 		 */
 		loginpage = new LoginPage(driver);
 		homepage = new HomePage(driver);
