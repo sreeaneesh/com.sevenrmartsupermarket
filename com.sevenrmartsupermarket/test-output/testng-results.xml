@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-27T23:54:20 IST" name="Default suite" finished-at="2024-11-27T23:54:27 IST" duration-ms="7679">
+  <suite started-at="2024-11-27T23:58:06 IST" name="Default suite" finished-at="2024-11-27T23:58:12 IST" duration-ms="6031">
     <groups>
     </groups>
-    <test started-at="2024-11-27T23:54:20 IST" name="Default test" finished-at="2024-11-27T23:54:27 IST" duration-ms="7679">
+    <test started-at="2024-11-27T23:58:06 IST" name="Default test" finished-at="2024-11-27T23:58:12 IST" duration-ms="6031">
       <class name="com.sevenrmartsupermarket.tests.LoginTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@6440112d]" started-at="2024-11-27T23:54:20 IST" name="launchBrowser" finished-at="2024-11-27T23:54:26 IST" duration-ms="6188" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@6440112d]" started-at="2024-11-27T23:58:06 IST" name="launchBrowser" finished-at="2024-11-27T23:58:10 IST" duration-ms="4592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="VerifyAdminUserLogin()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@6440112d]" started-at="2024-11-27T23:54:26 IST" name="VerifyAdminUserLogin" finished-at="2024-11-27T23:54:27 IST" duration-ms="1406" status="PASS">
+        <test-method signature="VerifyAdminUserLogin()[pri:0, instance:com.sevenrmartsupermarket.tests.LoginTest@6440112d]" started-at="2024-11-27T23:58:10 IST" name="VerifyAdminUserLogin" finished-at="2024-11-27T23:58:12 IST" duration-ms="1353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAdminUserLogin -->
