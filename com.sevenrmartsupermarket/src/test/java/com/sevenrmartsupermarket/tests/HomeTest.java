@@ -18,7 +18,7 @@ public class HomeTest extends Base {
 	public void VerifyAdminUserLogin()
 
 	{
-		screenshotcapture.takeScreenshot(driver, "Aneesh");//screenshot capture
+		screenshotcapture.takeScreenshot(driver, "Aneesh");//screenshot
 	}
 	
 	@Test
